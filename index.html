@@ -13,6 +13,7 @@
       <!-- CSS --> 
       <link rel="stylesheet" href="assets/css/uikit.css">
       <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/custom.css">
    </head>
    <body>
       <header data-uk-sticky="top: 400; cls-active: in-sticky">
@@ -93,7 +94,7 @@
                         </ul>
                      </nav>
                      <!-- main navigation end --> <!-- mobile navigation begin --> 
-                     <div class="in-mobile-nav uk-height-1-1 uk-flex uk-flex-right uk-flex-middle uk-hidden@m"> <a class="uk-button" href="#mobile-nav-modal" data-uk-toggle><i class="fas fa-bars"></i></a> </div>
+                     <!-- <div class="in-mobile-nav uk-height-1-1 uk-flex uk-flex-right uk-flex-middle uk-hidden@m"> <a class="uk-button" href="#mobile-nav-modal" data-uk-toggle><i class="fas fa-bars"></i></a> </div>
                      <div id="mobile-nav-modal" class="uk-modal-full" data-uk-modal>
                         <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport>
                            <button class="uk-modal-close-full uk-close-large fas fa-times" type="button"></button> 
@@ -132,7 +133,7 @@
                               <a href="signin.html" class="uk-button uk-button-primary uk-border-rounded uk-align-center">Login <i class="fas fa-sign-in-alt uk-margin-small-left"></i></a> 
                            </div>
                         </div>
-                     </div>
+                     </div> -->
                      <!-- mobile navigation end --> 
                   </div>
                </div>
@@ -606,6 +607,10 @@
             <div class="uk-visible@m"> <a href="#" class="in-totop fas fa-chevron-up" data-uk-scroll></a> </div>
          </div>
          <!-- footer content end --> 
+         <div style="display: flex;justify-content: center;margin:auto;height:80px;" class="in-sticky hidden">
+                  <img src="assets/img/logo.png" alt="" style="height:50px;margin:10px 25px;">
+                  <a href="#" class="uk-button uk-button-primary uk-button-large uk-border-rounded" style="margin:auto">Download Now</a> 
+         </div>
       </footer>
       <!-- Javascript --> 
        <script src="assets/js/vendor/uikit.min.js"></script>
